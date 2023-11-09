@@ -1,4 +1,4 @@
-package com.example.kontrasantrasis;
+package com.example.kontrasantrasis.utils;
 
 
 import jakarta.persistence.EntityManager;

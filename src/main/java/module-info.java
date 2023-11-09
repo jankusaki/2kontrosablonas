@@ -12,4 +12,8 @@ module com.example.kontrasantrasis {
     exports com.example.kontrasantrasis;
     exports com.example.kontrasantrasis.model;
     opens com.example.kontrasantrasis.model to javafx.fxml, org.hibernate.orm.core;
+    exports com.example.kontrasantrasis.utils;
+    opens com.example.kontrasantrasis.utils to javafx.fxml, org.hibernate.orm.core;
+    exports com.example.kontrasantrasis.fxControllers;
+    opens com.example.kontrasantrasis.fxControllers to javafx.fxml, org.hibernate.orm.core;
 }
